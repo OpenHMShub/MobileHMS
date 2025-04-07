@@ -1,0 +1,211 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "style": {
+            "classes": "Text/Page_Header",
+            "fontSize": "22px",
+            "fontWeight": "bold",
+            "textAlign": "center"
+          },
+          "text": "Winter Shelter"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Text"
+            },
+            "position": {
+              "basis": "30px",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "params": {
+                "column_name": [
+                  "locationName",
+                  "loc.city",
+                  "loc.addressLine1",
+                  "loc.zipCode",
+                  "genderAccepted",
+                  "loc.addressLine2"
+                ],
+                "filter": "winterShelterRegistrations",
+                "key": "search",
+                "placeholder": "Search",
+                "searchType": "like"
+              },
+              "path": "1_TEMPLATES/Filtering/Session/Text",
+              "style": {
+                "classes": "Table/Search_Bar",
+                "margin": "auto 0"
+              },
+              "useDefaultViewHeight": true
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "script": "\t#Clear the filter components\n\tsystem.perspective.sendMessage(messageType\u003d\"clearFilter\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "ClearFilters"
+            },
+            "position": {
+              "basis": "40px",
+              "shrink": 0
+            },
+            "props": {
+              "path": "1_TEMPLATES/Filtering/Filters/ClearFilters",
+              "style": {
+                "margin": "auto 0"
+              }
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "40px",
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "Filter/Header_Text",
+            "overflow": "hidden",
+            "padding": "0 20px"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "Registrations_Table"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "propConfig": {
+          "custom.calculatedSeason": {
+            "binding": {
+              "config": {
+                "queryPath": "WinterShelterGlobal/getCurrentSeason"
+              },
+              "transforms": [
+                {
+                  "code": "\tif value is not None and value.getRowCount()\u003e0:\n\t\treturn value.getValueAt(0,\u0027id\u0027)\n\telse:\n\t\treturn 0",
+                  "type": "script"
+                }
+              ],
+              "type": "query"
+            }
+          },
+          "props.params.seasonId": {
+            "binding": {
+              "config": {
+                "path": "this.custom.calculatedSeason"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "maxBeds": {
+              "$": [
+                "ds",
+                192,
+                1650568407748
+              ],
+              "$columns": [
+                {
+                  "data": [
+                    10,
+                    36
+                  ],
+                  "name": "value",
+                  "type": "Integer"
+                },
+                {
+                  "data": [
+                    10,
+                    36
+                  ],
+                  "name": "label",
+                  "type": "Integer"
+                }
+              ]
+            },
+            "maxGuests": 50,
+            "minBeds": {
+              "$": [
+                "ds",
+                192,
+                1650568453965
+              ],
+              "$columns": [
+                {
+                  "data": [
+                    10,
+                    36
+                  ],
+                  "name": "value",
+                  "type": "Integer"
+                },
+                {
+                  "data": [
+                    10,
+                    36
+                  ],
+                  "name": "label",
+                  "type": "Integer"
+                }
+              ]
+            },
+            "minGuests": 50
+          },
+          "path": "WinterShelter/Dashboard/Components/Tables/Registrations_Table",
+          "style": {
+            "overflow": "hidden"
+          }
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Background/Alternative",
+        "overflow": "hidden"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

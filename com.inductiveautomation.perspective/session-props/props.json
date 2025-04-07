@@ -1,0 +1,253 @@
+{
+  "custom": {
+    "filters": {
+      "caseNotesDetail": {
+        "EnteredBy": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "NoteDate": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "NoteType": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "Search": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "hmis": {
+          "value": null,
+          "where": "1\u003d1"
+        }
+      },
+      "participantDashboard": {
+        "Search": {
+          "value": null,
+          "where": "1\u003d1"
+        }
+      },
+      "providersDashboard": {
+        "Search": {
+          "value": null,
+          "where": "1\u003d1"
+        }
+      },
+      "winterShelterCongregations": {
+        "city": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "genders": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "locationName": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "maxGuests": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "minGuests": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "search": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "timeRetired": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "zipCode": {
+          "value": null,
+          "where": "1\u003d1"
+        }
+      },
+      "winterShelterRegistrations": {
+        "HDCP": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "breakfast": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "city": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "clothing": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "dinner": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "families": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "friday": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "genders": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "haircuts": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "hygieneItems": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "laundry": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "locationName": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "maxGuests": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "minGuests": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "monday": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "reminderCall": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "sackLunches": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "saturday": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "search": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "season": {
+          "value": null,
+          "where": 11
+        },
+        "shortNotice": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "showers": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "smoking": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "stairs": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "sunday": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "thursday": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "tuesday": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "wednesday": {
+          "value": null,
+          "where": "1\u003d1"
+        },
+        "zipCode": {
+          "value": null,
+          "where": "1\u003d1"
+        }
+      }
+    }
+  },
+  "propConfig": {
+    "props.auth": {
+      "access": "PRIVATE",
+      "persistent": false
+    },
+    "props.device.accelerometer": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.device.identifier": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.device.timezone": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.device.type": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.device.userAgent": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.gateway": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.geolocation.data": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.geolocation.permissionGranted": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.host": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.id": {
+      "access": "SYSTEM",
+      "persistent": false
+    },
+    "props.lastActivity": {
+      "access": "SYSTEM",
+      "persistent": false
+    }
+  },
+  "props": {
+    "address": "58.84.61.179",
+    "appBar": {
+      "togglePosition": "hidden"
+    },
+    "device": {},
+    "geolocation": {},
+    "locale": "en-US",
+    "theme": "RITI",
+    "timeZoneId": "America/Chicago"
+  }
+}

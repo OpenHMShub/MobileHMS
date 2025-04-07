@@ -1,0 +1,86 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "description": "Insert a new human coordinator.",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "RITIOps",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "46246b5af2376ad2ac41946abdc794b47fc198e0f98ab7bb14dc28979ccb3b84",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "lane",
+      "timestamp": "2022-05-21T17:29:04Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "city",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "zip",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "state",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "street",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "email",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "first",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "last",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "phone1",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "phone2",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "preferred",
+        "sqlType": 7
+      }
+    ]
+  }
+}

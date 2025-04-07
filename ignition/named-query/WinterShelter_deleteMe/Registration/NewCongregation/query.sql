@@ -1,0 +1,26 @@
+INSERT INTO shelter.Congregation (
+	addressLine1, 
+	addressLine2, 
+	city, 
+	congregationLeader, 
+	congregationName, 
+	email, 
+	notes, 
+	phone, 
+	state, 
+	website, 
+	zipcode,
+	nightPhone)
+VALUES (
+	:line1, 
+	:line2, 
+	:city, 
+	:leader, 
+	:congregation, 
+	:email, 
+	:notes, 
+	:phone, 
+	:state, 
+	:website, 
+	:zip,
+	:afterHours);

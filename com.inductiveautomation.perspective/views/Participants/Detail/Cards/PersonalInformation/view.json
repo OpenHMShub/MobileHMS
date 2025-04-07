@@ -1,0 +1,1335 @@
+{
+  "custom": {
+    "background_color": "#FFFFFF",
+    "sql_data": {
+      "$": [
+        "ds",
+        192,
+        1665999546119
+      ],
+      "$columns": [
+        {
+          "data": [
+            4
+          ],
+          "name": "human_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            true
+          ],
+          "name": "fullRegistration",
+          "type": "Boolean"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "time_retired",
+          "type": "Date"
+        },
+        {
+          "data": [
+            1413452948443
+          ],
+          "name": "time_registered",
+          "type": "Date"
+        },
+        {
+          "data": [
+            false
+          ],
+          "name": "suspension_active",
+          "type": "Boolean"
+        },
+        {
+          "data": [
+            0
+          ],
+          "name": "case_manager_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            ""
+          ],
+          "name": "employee_name",
+          "type": "String"
+        },
+        {
+          "data": [
+            "420274885"
+          ],
+          "name": "ssn",
+          "type": "String"
+        },
+        {
+          "data": [
+            2
+          ],
+          "name": "ssn_quality_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "Full SSN Reported"
+          ],
+          "name": "ssn_quality",
+          "type": "String"
+        },
+        {
+          "data": [
+            "David"
+          ],
+          "name": "first_name",
+          "type": "String"
+        },
+        {
+          "data": [
+            "Grant"
+          ],
+          "name": "middle_name",
+          "type": "String"
+        },
+        {
+          "data": [
+            "Baird"
+          ],
+          "name": "last_name",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "suffix_name",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "nick_name",
+          "type": "String"
+        },
+        {
+          "data": [
+            358646400000
+          ],
+          "name": "dob",
+          "type": "Date"
+        },
+        {
+          "data": [
+            2
+          ],
+          "name": "dob_quality_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "Full DOB Reported"
+          ],
+          "name": "dob_quality",
+          "type": "String"
+        },
+        {
+          "data": [
+            41
+          ],
+          "name": "Age",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            0
+          ],
+          "name": "gender_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "Male"
+          ],
+          "name": "gender",
+          "type": "String"
+        },
+        {
+          "data": [
+            5
+          ],
+          "name": "race_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "White"
+          ],
+          "name": "race",
+          "type": "String"
+        },
+        {
+          "data": [
+            1
+          ],
+          "name": "ethnicity_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "Non-Hispanic/Latino"
+          ],
+          "name": "ethnicity",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "time_deceased",
+          "type": "Date"
+        },
+        {
+          "data": [
+            1
+          ],
+          "name": "veteran_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "No"
+          ],
+          "name": "veteran",
+          "type": "String"
+        },
+        {
+          "data": [
+            4
+          ],
+          "name": "disability_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "Data not collected"
+          ],
+          "name": "disability",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "tri_morbid",
+          "type": "Boolean"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "chronic_homeless",
+          "type": "Boolean"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "so_registry",
+          "type": "Boolean"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "mail_service",
+          "type": "Boolean"
+        },
+        {
+          "data": [
+            4
+          ],
+          "name": "family_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "Baird, David - 1981"
+          ],
+          "name": "family",
+          "type": "String"
+        },
+        {
+          "data": [
+            0
+          ],
+          "name": "hoh_relationship_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "Self"
+          ],
+          "name": "hoh_relationship",
+          "type": "String"
+        },
+        {
+          "data": [
+            ""
+          ],
+          "name": "street",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "city",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "state",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "zip_code",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "phone",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "alt_phone",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "email",
+          "type": "String"
+        },
+        {
+          "data": [
+            3
+          ],
+          "name": "communication_type_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "insurance_type_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "Data Not Collected"
+          ],
+          "name": "communication_type",
+          "type": "String"
+        },
+        {
+          "data": [
+            "Matt Sonders"
+          ],
+          "name": "emergency_contact_name",
+          "type": "String"
+        },
+        {
+          "data": [
+            6
+          ],
+          "name": "emergency_contact_type_id",
+          "type": "Integer"
+        },
+        {
+          "data": [
+            "420-4885    "
+          ],
+          "name": "emergency_contact_phone",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "emergency_contact_email",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "employer",
+          "type": "String"
+        },
+        {
+          "data": [
+            null
+          ],
+          "name": "school",
+          "type": "String"
+        }
+      ]
+    }
+  },
+  "params": {
+    "partial": false,
+    "participantID": 4,
+    "participantName": "David Baird",
+    "suspended": false
+  },
+  "propConfig": {
+    "custom.sql_data": {
+      "binding": {
+        "config": {
+          "parameters": {
+            "participant_id": "{view.params.participantID}"
+          },
+          "queryPath": "Participants/Personal/PersonalDetailSelect"
+        },
+        "type": "query"
+      },
+      "persistent": true
+    },
+    "params.partial": {
+      "binding": {
+        "config": {
+          "path": "view.custom.sql_data"
+        },
+        "transforms": [
+          {
+            "code": "\tregistered \u003d value.getValueAt(0,\u0027fullRegistration\u0027)\n\tif registered !\u003d True:\n\t\treturn True\n\telse:\n\t\treturn False",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "paramDirection": "output",
+      "persistent": true
+    },
+    "params.participantID": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.participantName": {
+      "binding": {
+        "config": {
+          "path": "view.custom.sql_data"
+        },
+        "transforms": [
+          {
+            "code": "\t#\tif value.getValueAt(0,\u0027suspension_active\u0027):\n#\t\treturn True\n#\telse:\n#\t\treturn False\n\treturn str(value.getValueAt(0,\u0027first_name\u0027)) + \" \" + str(value.getValueAt(0,\u0027last_name\u0027))",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "paramDirection": "output",
+      "persistent": true
+    },
+    "params.suspended": {
+      "binding": {
+        "config": {
+          "path": "view.custom.sql_data"
+        },
+        "transforms": [
+          {
+            "code": "\tif value.getValueAt(0,\u0027suspension_active\u0027):\n\t\treturn True\n\telse:\n\t\treturn False",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      },
+      "paramDirection": "output",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "width": 254
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "headerEmbeddedView"
+        },
+        "position": {
+          "basis": "170px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Text": {
+            "binding": {
+              "config": {
+                "expression": "concat({../firstNameEmbeddedView.props.params.Info}, \" \", {../middleNameEmbeddedView.props.params.Info}, \" \", {../lastNameEmbeddedView.props.params.Info})"
+              },
+              "type": "expr"
+            }
+          },
+          "props.params.participantID": {
+            "binding": {
+              "config": {
+                "path": "view.params.participantID"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "background": "#FFFFFF"
+          },
+          "path": "Participants/Detail/Cards/Personal/Header",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_0"
+        },
+        "position": {
+          "display": false,
+          "shrink": 0
+        },
+        "props": {
+          "params": {
+            "Text": "Tyler George Adams"
+          },
+          "path": "Participants/Detail/Cards/Personal/ActionsTop",
+          "style": {
+            "marginTop": "10px"
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_1"
+        },
+        "position": {
+          "display": false,
+          "shrink": 0
+        },
+        "props": {
+          "params": {
+            "Text": "Tyler George Adams"
+          },
+          "path": "Participants/Detail/Cards/Personal/ActionsBottom",
+          "style": {
+            "borderBottomColor": "#e6e6e6",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": 1
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_2"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "props": {
+          "params": {
+            "Text": "About this Participant"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutHeader",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "firstNameEmbeddedView_0"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027time_registered\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                },
+                {
+                  "formatType": "datetime",
+                  "formatValue": {
+                    "date": "medium"
+                  },
+                  "type": "format"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Registration"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "firstNameEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027first_name\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "First name"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "middleNameEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027middle_name\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Middle name"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "lastNameEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027last_name\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Last name"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "suffixEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027suffix_name\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Suffix"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "nicknameEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027nick_name\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Nickname"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "idNumEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "participantId": "{view.params.participantID}"
+                },
+                "queryPath": "Participants/Campus Store/GetPointTotal"
+              },
+              "transforms": [
+                {
+                  "code": "\tif value is not None and value.getRowCount() \u003e 0 and value.getValueAt(0,\u0027points\u0027) is not None:\n\t\treturn value.getValueAt(0,\u0027points\u0027)\n\telse:\n\t\treturn 0",
+                  "type": "script"
+                }
+              ],
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Campus Store Points"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "ssnEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027ssn\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item[:3] + \u0027-\u0027 + item[3:5] + \u0027-\u0027 + item[5:]",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Social Security Number"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "ssnQualityEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027ssn_quality\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Social Security Number Quality\n"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "dobEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027dob\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn system.date.format(item,\u0027MMM dd yyyy\u0027)",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Birth date"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "dobQualityEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027dob_quality\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Date of Birth Quality\n"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "ageEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027age\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Age"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "ethnicityEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027ethnicity\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Ethnicity"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "raceEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027race\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Race"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "genderEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027gender\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Gender"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "familyEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027family\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Family"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "relationshipEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027hoh_relationship\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Relationship to Head of Household"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "phoneEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027phone\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item[0:3] + \u0027-\u0027 + item[3:6] + \u0027-\u0027 + item[6:]",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Phone Number"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "emailEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027email\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "E-Mail"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmergencyNameEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027emergency_contact_name\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Emergency Contact Name"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmergencyPhoneEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027emergency_contact_phone\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item[0:3] + \u0027-\u0027 + item[3:6] + \u0027-\u0027 + item[6:]",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Emergency Contact Phone"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "disabilityEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027disability\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Disability"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "veteranEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "path": "view.custom.sql_data"
+              },
+              "transforms": [
+                {
+                  "code": "\titem \u003d value.getValueAt(0,\u0027veteran\u0027)\n\tif item is None:\n\t\treturn \u0027\u0027\n\telse:\n\t\treturn item",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Veteran Status"
+          },
+          "path": "Participants/Detail/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Background/Default"
+      }
+    },
+    "scripts": {
+      "customMethods": [],
+      "extensionFunctions": null,
+      "messageHandlers": [
+        {
+          "messageType": "refreshPersonalInformation",
+          "pageScope": true,
+          "script": "\tview \u003d self.view\n\tview.refreshBinding(\"custom.sql_data\")",
+          "sessionScope": true,
+          "viewScope": false
+        }
+      ]
+    },
+    "type": "ia.container.flex"
+  }
+}

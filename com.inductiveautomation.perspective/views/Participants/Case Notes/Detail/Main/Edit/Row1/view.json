@@ -1,0 +1,96 @@
+{
+  "custom": {},
+  "params": {
+    "note": "In astronomy, reflection nebulae are clouds of interstellar dust which might reflect the light of a nearby star or stars. The energy from the nearby stars is insufficient to ionize the gas of the nebula to create an emission nebula, but is enough to give sufficient scattering to make the dust visible. Thus, the frequency spectrum shown by reflection nebulae is similar to that of the illuminating stars. Among the microscopic particles responsible for the scattering are carbon compounds (e. g. diamond dust) and compounds of other elements such as iron and nickel. The latter two are often aligned with the galactic magnetic field and cause the scattered light to be slightly polarized.",
+    "time_created": "value"
+  },
+  "propConfig": {
+    "params.employee_id": {
+      "paramDirection": "inout"
+    },
+    "params.hmis": {
+      "paramDirection": "inout",
+      "persistent": true
+    },
+    "params.note": {
+      "paramDirection": "inout",
+      "persistent": true
+    },
+    "params.note_type_id": {
+      "paramDirection": "inout",
+      "persistent": true
+    },
+    "params.time_created": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 120,
+      "width": 1100
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Embed_Description"
+        },
+        "position": {
+          "basis": "800px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.params.label": {
+            "binding": {
+              "config": {
+                "path": "view.params.time_created"
+              },
+              "type": "property"
+            }
+          },
+          "props.params.text": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.note"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "placeholder": "Start typing to create a case note..."
+          },
+          "path": "Participants/Templates/60px/top/ReadOnly_Text"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Embed_Placeholder"
+        },
+        "position": {
+          "basis": "1px",
+          "display": false,
+          "grow": 1
+        },
+        "props": {
+          "path": "Participants/Templates/Placeholder"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "classes": "Background/Default"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

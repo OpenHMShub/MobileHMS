@@ -1,0 +1,330 @@
+{
+  "custom": {},
+  "params": {
+    "selectedTab": "Overview"
+  },
+  "propConfig": {
+    "params.selectedTab": {
+      "paramDirection": "inout",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 30
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "About"
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "About",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Intake"
+        },
+        "position": {
+          "display": false
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Intake",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button",
+          "style": {
+            "marginLeft": "15px",
+            "marginRight": "15px"
+          }
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Referrals"
+        },
+        "position": {
+          "display": false
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Referrals",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button",
+          "style": {
+            "marginLeft": "15px",
+            "marginRight": "15px"
+          }
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Case Notes"
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Case Notes",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Programs"
+        },
+        "position": {
+          "display": false
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Programs",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button",
+          "style": {
+            "marginLeft": "15px",
+            "marginRight": "15px"
+          }
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Services"
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Services",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Drug Screen"
+        },
+        "position": {
+          "display": false
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Drug Screen",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button",
+          "style": {
+            "marginLeft": "15px",
+            "marginRight": "15px"
+          }
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Incidents"
+        },
+        "position": {
+          "display": false
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Incidents",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button",
+          "style": {
+            "marginLeft": "15px",
+            "marginRight": "15px"
+          }
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Reinstatement"
+        },
+        "position": {
+          "display": false
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Reinstatement",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button",
+          "style": {
+            "marginLeft": "15px",
+            "marginRight": "15px"
+          }
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Activity"
+        },
+        "position": {
+          "display": false
+        },
+        "propConfig": {
+          "props.params.SelectedTab": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.selectedTab"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Name": "Activity",
+            "Selected": false
+          },
+          "path": "Participants/Dashboard/Components/TabStrip/TabStrip_Button"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "alignContent": "center",
+      "justify": "space-around",
+      "style": {
+        "classes": "Background/Alternative"
+      }
+    },
+    "scripts": {
+      "customMethods": [],
+      "extensionFunctions": null,
+      "messageHandlers": [
+        {
+          "messageType": "participant_detail_tab_select",
+          "pageScope": true,
+          "script": "\t#system.perspective.print(\u0027New Tab Message Recieved\u0027)\n\tself.view.params.selectedTab \u003d payload[\u0027tab_id\u0027]",
+          "sessionScope": true,
+          "viewScope": true
+        }
+      ]
+    },
+    "type": "ia.container.flex"
+  }
+}

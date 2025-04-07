@@ -1,0 +1,70 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "9e5b20e72473016195d124bd8d3517fe34b09295a7f4d367596b4c7083ac8075",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "lane",
+      "timestamp": "2022-05-21T17:29:04Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "locationId",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "locationStreet",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "locationStreet2",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "locationCity",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "locationState",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "locationZipCode",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "hostLocal",
+        "sqlType": 6
+      }
+    ]
+  }
+}

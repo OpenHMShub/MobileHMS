@@ -1,0 +1,75 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "RITIOps",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "77a25d6acca22e43afe790179c6185168cf525992741bfea557884e843d55c2a",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "lane",
+      "timestamp": "2022-05-21T17:29:04Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "nights",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "gender",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "guestCount",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "city",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "wheelchair",
+        "sqlType": 6
+      },
+      {
+        "type": "Parameter",
+        "identifier": "services",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "congregation",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "lastName",
+        "sqlType": 7
+      }
+    ]
+  }
+}

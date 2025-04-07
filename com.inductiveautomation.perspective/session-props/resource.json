@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "props.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "yogini",
+      "timestamp": "2023-12-15T08:08:21Z"
+    },
+    "lastModificationSignature": "be28f9eebd3756c2d214028e1dc84028cdbfee0460f31cda6ded2293b0634eb0"
+  }
+}

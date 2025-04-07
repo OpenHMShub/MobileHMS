@@ -1,0 +1,51 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "description": "Assign a human as a coordinator for a congregation.",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "RITIOps",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "b985e03976778a890a44ec8002bec76bc0278cbeaba7f0f9fbc6be6f76b64d9f",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "lane",
+      "timestamp": "2022-05-21T17:29:04Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "congregationId",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "humanId",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "isPrimary",
+        "sqlType": 6
+      }
+    ]
+  }
+}

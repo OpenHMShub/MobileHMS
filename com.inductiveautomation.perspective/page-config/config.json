@@ -1,0 +1,55 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": "Participants/Dashboard/Participant_Dashboard"
+    },
+    "/Participants": {
+      "title": "",
+      "viewPath": "Participants/Dashboard/Participant_Dashboard"
+    },
+    "/Participants/Detail/:participantID/:tab_id": {
+      "title": "",
+      "viewPath": "Participants/Detail/Participant_Detail"
+    },
+    "/Providers": {
+      "title": "",
+      "viewPath": "Providers/Dashboard/Provider_Dashboard"
+    },
+    "/Providers/Detail/:trackID/:tab_id": {
+      "title": "",
+      "viewPath": "Providers/Detail/Provider_Detail"
+    },
+    "/Volunteers": {
+      "title": "",
+      "viewPath": "Volunteers/Dashboard/GeneralLayoutFullIFrame"
+    },
+    "/WinterShelter": {
+      "title": "",
+      "viewPath": "WinterShelter/Dashboard/WinterShelter_Dashboard"
+    },
+    "/WinterShelter/Congregations/Detail/:locationId": {
+      "title": "",
+      "viewPath": "WinterShelter/Detail/WinterShelter_Detail"
+    }
+  },
+  "sharedDocks": {
+    "bottom": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 46,
+        "viewParams": {},
+        "viewPath": "2_Menu/Bottom"
+      }
+    ],
+    "cornerPriority": "top-bottom"
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "custom": {},
+  "params": {
+    "providerName": null,
+    "trackID": ""
+  },
+  "propConfig": {
+    "params.providerName": {
+      "binding": {
+        "config": {
+          "path": "/root/NameEmbeddedView.props.params.Info"
+        },
+        "type": "property"
+      },
+      "paramDirection": "output",
+      "persistent": true
+    },
+    "params.trackID": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 1213,
+      "width": 600
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "display": false,
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "concat({/root/raceEmbeddedView.props.params.Info},\u0027 - \u0027,{/root/genderEmbeddedView.props.params.Info},\u0027 - \u0027,numberFormat({/root/ageEmbeddedView.props.params.Info},\u0027#0\u0027))"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "Text/About_info",
+            "paddingLeft": "0px",
+            "textAlign": "center"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "About this Participant Header"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "props": {
+          "params": {
+            "Text": "About this Provider"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutHeader",
+          "style": {
+            "borderTopColor": "#e6e6e6",
+            "borderTopStyle": "solid",
+            "borderTopWidth": 1
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "NameEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_HumanSingleFieldEntry",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Name"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "ProviderTypeEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_NationalProviderIdentifier_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Provider Type"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EntryDateEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_EntryDate_Query",
+                "returnFormat": "scalar"
+              },
+              "transforms": [
+                {
+                  "code": "\t\n\t#Convert object to string\n\tstring \u003d str(value)\n\t\n\t#Format Date\n\tyear \u003d string[0:4]\n\tday \u003d string[5:7]\n\tmonth \u003d string[8:10]\n\tdate \u003d day + \u0027/\u0027 + month + \u0027/\u0027 + year\n\treturn date",
+                  "type": "script"
+                }
+              ],
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Entry Date"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "AddressEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_Address_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Address"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "CityEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_City_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "City"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "StateEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_State_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "State"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "ZIPEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_zip_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "ZIP"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "PhoneEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_Phone_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Phone"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "WebsiteEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.Info": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_Website_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Website"
+          },
+          "path": "Providers/Preview/Cards/Personal/AboutLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "MailingEmbeddedView"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "custom.City": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_City_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          },
+          "custom.State": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_State_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          },
+          "custom.Zip": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_zip_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          },
+          "props.params.CityState": {
+            "binding": {
+              "config": {
+                "expression": "concat({this.custom.City}, \u0027, \u0027, {this.custom.State}, \u0027 \u0027, {this.custom.Zip})"
+              },
+              "type": "expr"
+            }
+          },
+          "props.params.Street": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "trackID": "{view.params.trackID}"
+                },
+                "queryPath": "Provider/Detail/Provider_Address_Query",
+                "returnFormat": "scalar"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "Description": "Mailing Address"
+          },
+          "path": "Providers/Preview/Cards/Personal/MailAddressLabel",
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Background/Default"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

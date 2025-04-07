@@ -1,0 +1,70 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "a317bf12bd79b15e8ea5b33ea797bb877f420e2e0ddacc8ac5d1cddc192bf995",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "lane",
+      "timestamp": "2022-05-21T17:29:04Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "congregationStreet",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "congregationStreet2",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "congregationCity",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "congregationState",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "congregationZipCode",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "congregationPhone",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "providerId",
+        "sqlType": 2
+      }
+    ]
+  }
+}

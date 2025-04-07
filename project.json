@@ -1,0 +1,7 @@
+{
+  "title": "DISCOVERY Mobile",
+  "description": "Mobile Version",
+  "parent": "Global",
+  "enabled": true,
+  "inheritable": false
+}
