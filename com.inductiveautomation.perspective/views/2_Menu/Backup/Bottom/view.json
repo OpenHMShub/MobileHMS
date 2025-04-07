@@ -730,8 +730,12 @@
             }
           }
         },
+        "meta": {
+          "visible": false
+        },
         "position": {
           "basis": "22%",
+          "display": false,
           "shrink": 0
         },
         "propConfig": {

@@ -240,13 +240,13 @@
     }
   },
   "props": {
-    "address": "58.84.61.179",
+    "address": "127.0.0.1",
     "appBar": {
       "togglePosition": "hidden"
     },
     "device": {},
     "geolocation": {},
-    "locale": "en-US",
+    "locale": "uk-UA",
     "theme": "RITI",
     "timeZoneId": "America/Chicago"
   }
