@@ -16,7 +16,7 @@ The Discovery app allows users to easily view data stored in the system without 
 -Note: This is a read-only portal. No changes or edits can be made through this interface.-
 
 ## Requirements
-`Ignition 8.1.45` or later
+`Ignition 8.1.47` or later
 
 SQL Server database populated with `Discovery_Schema.sql` and `Discovery_Master_Data.sql`
 
