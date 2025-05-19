@@ -18,7 +18,7 @@
     "cacheEnabled": false,
     "database": "RITIOps",
     "fallbackEnabled": false,
-    "lastModificationSignature": "85626267e9d2f84defc7e4aad3d64f5679fa17dd4c965ffea198b3abda32a672",
+    "lastModificationSignature": "79062fdec708dcb28e64203a66c3500d900fceb194af023bda38cf163fa66149",
     "permissions": [
       {
         "zone": "",
@@ -26,8 +26,8 @@
       }
     ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
+      "actor": "external",
+      "timestamp": "2025-05-19T13:08:10Z"
     },
     "syntaxProvider": "class com.adbs.syntax.MSSQLSyntaxProvider"
   }

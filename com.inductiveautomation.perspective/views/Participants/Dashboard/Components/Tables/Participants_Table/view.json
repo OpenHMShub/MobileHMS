@@ -1152,7 +1152,7 @@
             {
               "messageType": "tableToPDF",
               "pageScope": true,
-              "script": "\timport traceback\n\ttry:\n\t\t#Generate the report\n\t\tproject \u003d \"RITI\"\n\t\tpath \u003d \"ParticipantsDashboard\"\n\t\tparameters \u003d {\u0027activityRange\u0027:self.view.params.activity_range,\n\t\t\t\t\t\u0027genderId\u0027:self.session.custom.filters.participantDashboard.GenderId.where}\n\t\tpdfFile \u003d system.report.executeReport(path,project,parameters,fileType\u003d\u0027pdf\u0027)\n\t\tfilename \u003d \u0027participants_dashboard_\u0027 + str(system.date.format(system.date.now(),\"yyyyMMddHHmmss\")) + \u0027.pdf\u0027\n\n\t\tsystem.perspective.download(filename, pdfFile)\n\texcept:   \n\t\tlogger \u003d system.util.getLogger(\"Participants Dashboard tableToExcel\")\n\t\tmsg \u003d traceback.format_exc()\n\t\tlogger.error(msg)",
+              "script": "\timport traceback\n\ttry:\n\t\t#Generate the report\n\t\tproject \u003d \"HMS\"\n\t\tpath \u003d \"ParticipantsDashboard\"\n\t\tparameters \u003d {\u0027activityRange\u0027:self.view.params.activity_range,\n\t\t\t\t\t\u0027genderId\u0027:self.session.custom.filters.participantDashboard.GenderId.where}\n\t\tpdfFile \u003d system.report.executeReport(path,project,parameters,fileType\u003d\u0027pdf\u0027)\n\t\tfilename \u003d \u0027participants_dashboard_\u0027 + str(system.date.format(system.date.now(),\"yyyyMMddHHmmss\")) + \u0027.pdf\u0027\n\n\t\tsystem.perspective.download(filename, pdfFile)\n\texcept:   \n\t\tlogger \u003d system.util.getLogger(\"Participants Dashboard tableToExcel\")\n\t\tmsg \u003d traceback.format_exc()\n\t\tlogger.error(msg)",
               "sessionScope": false,
               "viewScope": false
             }

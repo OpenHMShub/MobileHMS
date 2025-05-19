@@ -18,7 +18,7 @@
     "cacheEnabled": false,
     "database": "",
     "fallbackEnabled": false,
-    "lastModificationSignature": "7b111ec8246fdc138d7205db084107ea7adb620e48f7f0a5bb093e9763403f51",
+    "lastModificationSignature": "dc611d03949d29207fc735d7c32d3b6382dac181bd2ae52afadba06cd69c2a73",
     "permissions": [
       {
         "zone": "",
@@ -26,8 +26,8 @@
       }
     ],
     "lastModification": {
-      "actor": "yogini",
-      "timestamp": "2022-10-17T09:36:09Z"
+      "actor": "external",
+      "timestamp": "2025-05-19T13:08:10Z"
     },
     "parameters": [
       {
