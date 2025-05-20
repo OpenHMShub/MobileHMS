@@ -1,11 +1,11 @@
-# Discovery – Mobile Access App for Shelter Data
+# MobileHMS – Mobile Access App for Shelter Data
 Discovery is the mobile-friendly version of the Room In The Inn system, built with Ignition Perspective.
 It is designed for quick, read-only access to key shelter information directly from a phone or tablet — no authentication required.
 
 This application is ideal for outreach workers, partner agencies, and volunteers who need fast access to real-time data in the field.
 
 ## Purpose
-The Discovery app allows users to easily view data stored in the system without logging in. It includes several public-facing views:
+The MobileHMS app allows users to easily view data stored in the system without logging in. It includes several public-facing views:
 
 * Participants – View a list of registered participants and their key details
 
@@ -23,7 +23,7 @@ SQL Server database populated with `Discovery_Schema.sql` and `Discovery_Master_
 `Global` project must be present and configured before this one
 
 ## Project Structure
-[Documentation](https://github.com/OpenHMSHub/Documentation/wiki/Discovery)
+[Documentation](https://github.com/OpenHMSHub/Documentation/wiki/MobileHMS)
 
 [ERD](https://github.com/OpenHMSHub/Documentation/wiki/Entity-Relationship-Diagrams)
 
@@ -39,19 +39,19 @@ Windows:
 `C:\Program Files\Inductive Automation\Ignition\data\projects`
 
 ```bash
-git clone https://github.com/OpenHMSHub/Discovery.git
+git clone https://github.com/OpenHMSHub/MobileHMS.git
 ```
 Restart your Ignition Gateway.
 
-Ensure that the Global project is correctly inherited by the Discovery project:
+Ensure that the Global project is correctly inherited by the MobileHMS project:
 Navigate to `Config` → `System` → `Projects` in the Gateway and confirm Global is listed as a parent project.
 
 Open the mobile-access portal in your browser or phone:
-`http://localhost:8088/data/perspective/client/Discovery/`
+`http://localhost:8088/data/perspective/client/MobileHMS/`
 
 ## Related Projects
 [Global](https://github.com/OpenHMSHub/Global)
 
-[RITI](https://github.com/OpenHMSHub/RITI)
+[HMS](https://github.com/OpenHMSHub/HMS)
 
 [WinterShelterPortal](https://github.com/OpenHMSHub/WinterShelterPortal)
