@@ -1,16 +1,35 @@
 {
   "scope": "DG",
-  "version": 1,
+  "documentation": "Select a list of congregatinos",
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "-1",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": true,
+    "lastModificationSignature": "5da63190796000e9f8bef489d229cd1cfb381cb30d1dfeac29f45063f44ee199",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:07:56Z"
     },
-    "lastModificationSignature": "10f8fe907b565346666b0dfa5a39def32c51107136fef0a0157a03fccb315198"
+    "syntaxProvider": "class com.adbs.syntax.MSSQLSyntaxProvider"
   }
 }

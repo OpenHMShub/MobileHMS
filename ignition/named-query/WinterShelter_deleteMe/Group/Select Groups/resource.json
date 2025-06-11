@@ -1,16 +1,34 @@
 {
   "scope": "DG",
-  "version": 1,
+  "documentation": "Select the Groups for the groups tab.",
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": true,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "a27701fb98ecc9e576d4d8cd9c1d4ee1badcacf430011867dcb2c5a43849d10c",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
-    },
-    "lastModificationSignature": "13cd7a6b832df2d07670271b48c05d0be6580c0949e51f382889093e237aaa21"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:08:50Z"
+    }
   }
 }

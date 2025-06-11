@@ -1,16 +1,35 @@
 {
   "scope": "DG",
-  "version": 1,
+  "documentation": "Select a list of providers",
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "-1",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": true,
+    "lastModificationSignature": "105af051189b864d7effdc99616370c4a430b981ba67c7b9894393d9ab36fd4c",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:07:56Z"
     },
-    "lastModificationSignature": "e89038449393525ad2270b74048a23b694473d50318afab1ee857a16976fbf2d"
+    "syntaxProvider": "class com.adbs.syntax.MSSQLSyntaxProvider"
   }
 }

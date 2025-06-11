@@ -1,16 +1,70 @@
 {
   "scope": "DG",
-  "version": 1,
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "ba62c324b7df6be6ee763aefecc3d341ebca9d8184194caac230304d52112f28",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "GShitole",
-      "timestamp": "2022-04-20T14:38:34Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:10:44Z"
     },
-    "lastModificationSignature": "03c2560b6173561b8be00675746b4eb3ac5e38912e3c0a77e3c796e8743070c1"
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "first_name",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "last_name",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "activity_start",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "dob_start",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "dob_end",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "activity_end",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "provider_id",
+        "sqlType": 3
+      }
+    ]
   }
 }

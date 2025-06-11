@@ -1,16 +1,46 @@
 {
   "scope": "DG",
-  "version": 1,
+  "documentation": "Adds an amenity location pair to the location amenity table.",
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "c09fa06bf8c8c6ac069159260c09492890743f618d71d595d6cac56a4b781d66",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:07:56Z"
     },
-    "lastModificationSignature": "f9d4f57b8343d1042a90daf8d65ca516c0ecdd1d38c6e50bd31b3254a9dfef80"
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "amenityId",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "locationPreferenceId",
+        "sqlType": 2
+      }
+    ]
   }
 }

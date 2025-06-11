@@ -1,16 +1,86 @@
 {
   "scope": "DG",
-  "version": 1,
+  "documentation": "Select the participants for the participants dashboard.",
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "6ea3a80bd785678ef98e3a0e552eaa172d9fad9b798f6805abff8fa1afcac81c",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:10:44Z"
     },
-    "lastModificationSignature": "6e53ea6b9795385e7a13ce00da97e8d6f67dd49fb6bad293011e0e29a335b647"
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "gender",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "first_name",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "last_name",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "race",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "veteran",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "shelter",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "activity_start",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "dob_start",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "dob_end",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "activity_end",
+        "sqlType": 8
+      }
+    ]
   }
 }

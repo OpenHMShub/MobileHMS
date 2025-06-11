@@ -1,16 +1,45 @@
 {
   "scope": "DG",
-  "version": 1,
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "83a0f0ffeec0b6639a8e350376ae98fd1ae882aba90ae2f94b550ecb8170b50d",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "GShitole",
-      "timestamp": "2022-04-20T14:38:34Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:10:44Z"
     },
-    "lastModificationSignature": "c2ffc7c02267402a1244336eb86728c5fb76d4a60a899dbb263a0cdefd36007d"
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "MonthCount",
+        "sqlType": 3
+      },
+      {
+        "type": "Parameter",
+        "identifier": "ProviderID",
+        "sqlType": 3
+      }
+    ]
   }
 }

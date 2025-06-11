@@ -1,16 +1,46 @@
 {
   "scope": "DG",
-  "version": 1,
+  "documentation": "Creates a new amenity. Used when a custom entered amenity does not already exist in the Amenities table.",
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "{}",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "5cf93d7bb4511436fcc1d3c5d0a5138ec5d7e9ed3fc0e5c7154747b8c2e2fb7a",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:08:50Z"
     },
-    "lastModificationSignature": "6e4aaed3823bde8e8a8d7bdb0c86fe1ddf7a776758deb646d05457a490e3c7b2"
+    "parameters": [
+      {
+        "type": "Database",
+        "identifier": "database",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "amenity",
+        "sqlType": 7
+      }
+    ]
   }
 }

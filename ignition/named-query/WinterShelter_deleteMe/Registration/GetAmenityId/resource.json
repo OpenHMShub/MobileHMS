@@ -1,16 +1,41 @@
 {
   "scope": "DG",
-  "version": 1,
+  "documentation": "Given text find a matching amenity",
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "0",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "ScalarQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": true,
+    "lastModificationSignature": "6d53bbcfe7fa820032f9a6ca33dd3401278e6a612e8f1949928de1468e103fdc",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:08:50Z"
     },
-    "lastModificationSignature": "db76db2358320e5439e01a9be8853ab0816658636e770046c96d5643648821c6"
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "amenity",
+        "sqlType": 7
+      }
+    ]
   }
 }

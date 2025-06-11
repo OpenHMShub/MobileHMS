@@ -1,16 +1,85 @@
 {
   "scope": "DG",
-  "version": 1,
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "21a95b04f46343572d8f9e9c65815635bcde2524535d2ab6fbc6e460f923d7bf",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "GShitole",
-      "timestamp": "2022-02-27T08:35:56Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:12:17Z"
     },
-    "lastModificationSignature": "015f9af1d1fc70da5bc643addf29045bcdb800be67c8f6a35c0de29c9ef6634c"
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "activity_range",
+        "sqlType": 2
+      },
+      {
+        "type": "QueryString",
+        "identifier": "notedate",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "notetype",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "hmis",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "enteredby",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "firstname",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "middlename",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "lastname",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "nickname",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "search",
+        "sqlType": 7
+      }
+    ]
   }
 }

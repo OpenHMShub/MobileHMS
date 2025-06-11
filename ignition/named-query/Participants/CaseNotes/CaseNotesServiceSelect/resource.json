@@ -1,16 +1,55 @@
 {
   "scope": "DG",
-  "version": 1,
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "e25fa1cbe2c7ce729217bb49edae73b0bd2fef4a9cb608af18bd8f2bfa09d15b",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "GShitole",
-      "timestamp": "2022-02-27T08:35:56Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:12:17Z"
     },
-    "lastModificationSignature": "8d8f8c7680d68ef88f66ae3837d10a6af45317619f2a0e0d7522a02288be5619"
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "participant_id",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "case_note_id",
+        "sqlType": 2
+      },
+      {
+        "type": "QueryString",
+        "identifier": "program",
+        "sqlType": 7
+      },
+      {
+        "type": "QueryString",
+        "identifier": "service",
+        "sqlType": 7
+      }
+    ]
   }
 }

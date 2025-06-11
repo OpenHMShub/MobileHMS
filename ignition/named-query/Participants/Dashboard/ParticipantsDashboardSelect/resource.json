@@ -1,5 +1,6 @@
 {
   "scope": "DG",
+  "documentation": "Select the participants for the participants dashboard.",
   "version": 2,
   "restricted": false,
   "overridable": true,
@@ -17,9 +18,9 @@
     "enabled": true,
     "cacheAmount": 1,
     "cacheEnabled": false,
-    "database": "RITIOps",
+    "database": "",
     "fallbackEnabled": false,
-    "lastModificationSignature": "e58b6ae4ad15a770cc796fb423e868250693ea6ab0217dc7ff29c13823dfb032",
+    "lastModificationSignature": "a1b7a974565bdfbbf9547c4d90bd1b2aeac3862a36ed52fa7165fd7c422ae9ff",
     "permissions": [
       {
         "zone": "",
@@ -27,8 +28,8 @@
       }
     ],
     "lastModification": {
-      "actor": "external",
-      "timestamp": "2025-05-19T13:08:10Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:12:17Z"
     },
     "parameters": [
       {

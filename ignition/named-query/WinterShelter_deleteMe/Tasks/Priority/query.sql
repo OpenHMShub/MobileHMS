@@ -1,4 +1,4 @@
 SELECT id
       ,Priority
 
-  FROM RITIOps.shelter.Priority
+  FROM HMSOps.shelter.Priority

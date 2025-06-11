@@ -1,5 +1,6 @@
 {
   "scope": "DG",
+  "documentation": "Insert a new human coordinator.",
   "version": 2,
   "restricted": false,
   "overridable": true,
@@ -17,9 +18,9 @@
     "enabled": true,
     "cacheAmount": 1,
     "cacheEnabled": false,
-    "database": "RITIOps",
+    "database": "",
     "fallbackEnabled": false,
-    "lastModificationSignature": "3a986561f3a09f2c2f948dfd783bc6a9b40fdc3c6e2ac915b4a05f874ba4a9f6",
+    "lastModificationSignature": "39e98a25283a5979ba2513a0618d5b80a1259e2a23ee5aa36284e31fb026cb3c",
     "permissions": [
       {
         "zone": "",
@@ -27,8 +28,8 @@
       }
     ],
     "lastModification": {
-      "actor": "external",
-      "timestamp": "2025-05-19T13:08:10Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:07:56Z"
     },
     "parameters": [
       {

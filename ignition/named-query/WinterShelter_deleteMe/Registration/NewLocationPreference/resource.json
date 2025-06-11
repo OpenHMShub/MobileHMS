@@ -1,5 +1,6 @@
 {
   "scope": "DG",
+  "documentation": "Insert a new services into the shelter.Congregation services table",
   "version": 2,
   "restricted": false,
   "overridable": true,
@@ -17,9 +18,9 @@
     "enabled": true,
     "cacheAmount": 1,
     "cacheEnabled": false,
-    "database": "RITIOps",
+    "database": "",
     "fallbackEnabled": false,
-    "lastModificationSignature": "1436a7d61190b677d5f65995cfae69ab0e85d21c544753b8f7c6e24bf1bce5fb",
+    "lastModificationSignature": "145a4237314dbeb900b80659def2e972be9040373106c856ac013c008328ca2a",
     "permissions": [
       {
         "zone": "",
@@ -27,8 +28,8 @@
       }
     ],
     "lastModification": {
-      "actor": "external",
-      "timestamp": "2025-05-19T13:08:10Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:07:56Z"
     },
     "parameters": [
       {

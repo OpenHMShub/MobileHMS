@@ -1,16 +1,60 @@
 {
   "scope": "DG",
-  "version": 1,
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "data.bin"
+    "query.sql"
   ],
   "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "d0c77f819cc249db0cab4237389ac3d71a21897d4746832530bb422d18e48db4",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
     "lastModification": {
-      "actor": "lane",
-      "timestamp": "2022-05-21T17:29:04Z"
+      "actor": "admin",
+      "timestamp": "2025-06-11T12:07:56Z"
     },
-    "lastModificationSignature": "21d8c538be56a522f67416acfb837aa23b99dcb85508d80564f8024ed7a31d77"
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "startTime",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "endTime",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "title",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "notes",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "congregationId",
+        "sqlType": 3
+      }
+    ]
   }
 }
