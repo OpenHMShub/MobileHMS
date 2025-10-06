@@ -18,7 +18,7 @@
     "cacheEnabled": false,
     "database": "",
     "fallbackEnabled": false,
-    "lastModificationSignature": "337adf92fc8938729f1e444b957c46cc312ae5d35a3c2c374208bd983b6e367f",
+    "lastModificationSignature": "9cf6fe40a183ab76cb730722e6d2197af2f5b06ccd0db5a90790c115d407a52f",
     "permissions": [
       {
         "zone": "",
@@ -26,8 +26,8 @@
       }
     ],
     "lastModification": {
-      "actor": "admin",
-      "timestamp": "2025-06-11T12:08:50Z"
+      "actor": "external",
+      "timestamp": "2025-08-20T08:24:51Z"
     },
     "syntaxProvider": "class com.adbs.syntax.MSSQLSyntaxProvider"
   }

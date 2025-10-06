@@ -18,7 +18,7 @@
     "cacheEnabled": false,
     "database": "",
     "fallbackEnabled": false,
-    "lastModificationSignature": "398276bbdbf7d8b727f068e1f26fd8cf60079f477351f9afada577bf7dae702d",
+    "lastModificationSignature": "45af411c1125c6383df95fdc34aa4483ea0ccbe11a48ecb254ff5dfdbc5c950d",
     "permissions": [
       {
         "zone": "",
@@ -27,7 +27,7 @@
     ],
     "lastModification": {
       "actor": "external",
-      "timestamp": "2025-05-19T13:08:10Z"
+      "timestamp": "2025-08-20T08:24:51Z"
     }
   }
 }
